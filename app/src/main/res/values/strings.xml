@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">musicDemo</string>
+    <string name="downloadStarted">Downloading</string>
+    <string name="downloadCompleted">Downloaded</string>
+    <string name="downloadFailed">Download Failed</string>
+    <string name="downloadAgain">Download Again</string>
+
+
+</resources>
