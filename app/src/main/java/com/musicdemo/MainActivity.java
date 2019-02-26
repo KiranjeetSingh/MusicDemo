@@ -228,6 +228,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
             // Cast and assign background service's onBind method returned iBander object.
             audioServiceBinder = (BackgroundSoundService.AudioServiceBinder) iBinder;
+            audioServiceBinder.setContext(MainActivity.this);
         }
 
         @Override
